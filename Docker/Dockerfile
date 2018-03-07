@@ -5,8 +5,7 @@ RUN apt-get update && apt-get install -y curl bzip2
 
 WORKDIR ~/blockchain-xmr
 
-ARG moneroVersion=v0.10.3.1
-ARG moneroChecksum=8db80f8cc4f80d4106db807432828df730a59eac78972ea81652aa6b9bac04ad
+ARG moneroVersion=v0.11.1.0
 
 RUN curl https://downloads.getmonero.org/cli/monero-linux-x64-$moneroVersion.tar.bz2 -O &&\
   echo '$moneroChecksum  monero-linux-x64-$moneroVersion.tar.bz2' &&\
