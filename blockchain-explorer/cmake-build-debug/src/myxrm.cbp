@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="myxrm"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\ext\;CMake Files\ext\mstch\;CMake Files\ext\mstch\src\;CMake Files\src\;CMake Files\src\templates\;CMake Files\src\templates\css\;CMake Files\src\templates\partials\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myxrm">
+				<Option output="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/libmyxrm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/src"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/external"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/build"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/external/easylogging++"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/contrib/epee/include"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/external/db_drivers/liblmdb"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 myxrm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="myxrm/fast">
+				<Option output="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/libmyxrm.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/src"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/external"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/build"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/external/easylogging++"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/contrib/epee/include"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/monero/external/db_drivers/liblmdb"/>
+					<Add directory="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 myxrm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CmdLineOptions.cpp">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CmdLineOptions.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CurrentBlockchainStatus.cpp">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CurrentBlockchainStatus.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/MempoolStatus.cpp">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/MempoolStatus.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/MicroCore.cpp">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/MicroCore.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/page.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/rpccalls.cpp">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/rpccalls.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/tools.cpp">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/tools.h">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/version.h.in">
+			<Option target="myxrm"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\mstch\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\mstch\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\mstch\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\mstch\src\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\mstch\src\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\ext\mstch\src\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/version.h.in">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/address.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/altblocks.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/block.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/checkrawkeyimgs.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/checkrawoutputkeys.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/checkrawtx.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/footer.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/header.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/index.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/index2.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/mempool.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/mempool_error.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/my_outputs.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/pushrawtx.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/rawkeyimgs.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/rawoutputkeys.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/rawtx.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/search_results.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/tx.html">
+			<Option virtualFolder="CMake Files\src\templates\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/css/style.css">
+			<Option virtualFolder="CMake Files\src\templates\css\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/partials/tx_details.html">
+			<Option virtualFolder="CMake Files\src\templates\partials\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/partials/tx_table_header.html">
+			<Option virtualFolder="CMake Files\src\templates\partials\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/templates/partials/tx_table_row.html">
+			<Option virtualFolder="CMake Files\src\templates\partials\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake/MyUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/cmake/FindMonero.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,14 @@
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/CMakeFiles/edit_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/CMakeFiles/rebuild_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/CMakeFiles/xmrblocks.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/CMakeFiles/rebuild_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/CMakeFiles/edit_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/CMakeFiles/myext.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/CMakeFiles/rebuild_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/CMakeFiles/edit_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/src/CMakeFiles/rebuild_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/src/CMakeFiles/edit_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/ext/mstch/src/CMakeFiles/mstch.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CMakeFiles/edit_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CMakeFiles/rebuild_cache.dir
+/home/sajithaliyanage/Documents/Projects/onion-monero-blockchain-explorer/src/CMakeFiles/myxrm.dir
